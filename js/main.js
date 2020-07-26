@@ -1,0 +1,1 @@
+var deetsHeight = document.getElementById('deets').clientHeight;
