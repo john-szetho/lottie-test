@@ -4,26 +4,27 @@ body, html {
     background-color: #f1f1f1;
 }
 
-body, h1, h2, h3, p {
+body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 16pt;
+    font-size: 9pt;
     font-weight: 100;
-    letter-spacing: .25;
+    letter-spacing: .35;
     line-height: 1;
     margin: 0;
     color: #f1f1f1;
 }
 
 h1 {
+    font-size: 12pt;
+    letter-spacing: .15;
     text-transform: uppercase;
 }
 
 #deets {
-    /* background-color: red; */
     background-color: black;
     color: #f1f1f1;
-    padding: .35rem;
-    width: 50vw;
+    padding: .45rem;
+    width: 100vw;
 }
 
 #anim {
