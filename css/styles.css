@@ -19,7 +19,8 @@ h1 {
 }
 
 #deets {
-    background-color: red;
+    /* background-color: red; */
+    background-color: black;
     color: #f1f1f1;
     padding: .35rem;
     width: 50vw;
@@ -27,5 +28,6 @@ h1 {
 
 #anim {
     width: 100%;
-    height: calc(100vh - deetsHeight);
+    /* height = 100vh - .clientHeight of #deets */
+    height: calc(100vh - var(--deetsH));
 }

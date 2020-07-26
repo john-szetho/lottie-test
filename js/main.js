@@ -1,5 +1,8 @@
-var deetsH = document.getElementById('deets').clientHeight;
+// get .clientHeight of #deets
+var deetsHeight = document.getElementById("deets").clientHeight;
 
-document.documentElement.style.setProperty('deetsHeight', `${deetsH}px`);
+// tell the World the pixel height of that sweet sweet element
+console.log(`Height of element id=\"deets\" = ${deetsHeight}px`);
 
-console.log(deetsH);
+// setProperty to use in CSS
+document.documentElement.style.setProperty('--deetsH', `${deetsHeight}px`);
