@@ -35,4 +35,9 @@ h1 {
     width: 100%;
     /* height = 100vh - .clientHeight of #deets */
     height: calc(100vh - var(--deetsH));
+    text-align: center;
+}
+
+#anim svg {
+    width: 50vw !important;
 }
