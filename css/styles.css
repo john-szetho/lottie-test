@@ -7,8 +7,8 @@
     --pink: rgba(255, 170, 199, 1);
     --blue: rgb(46, 27, 129);
     --lime: rgb(191, 255, 0);
-    --blk: #121212;
-    --wht: #f1f1f1;
+    --blk: #202020;
+    --wht: #f2f2f2;
 }
 
 body, html {
@@ -30,6 +30,16 @@ body {
 h1 {
     font-size: 12pt;
     text-transform: uppercase;
+}
+
+p {
+    filter: blur(2px);
+}
+
+h1:hover, p:hover {
+    filter: blur(0);
+    cursor: wait;
+    transition: .4s;
 }
 
 #deets {
